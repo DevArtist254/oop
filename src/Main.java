@@ -2,9 +2,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        Door x22 = new Door();
+        Bank tomKCBAccount = new Bank();
 
-        x22.describe();
+        tomKCBAccount.setPhoneNumber("0723456257");
+        tomKCBAccount.setAccountNumber(34567);
+        tomKCBAccount.setCustomerName("Tom Jackson");
+        tomKCBAccount.setEmail("jackwest@gmail.com");
+        tomKCBAccount.deposit(20000);
 
+        tomKCBAccount.withdrawal(1000);
+        tomKCBAccount.withdrawal(1000);
+
+        tomKCBAccount.deposit(12000);
+
+        tomKCBAccount.describeAc();
     }
 }
