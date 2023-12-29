@@ -16,5 +16,10 @@ public class Main {
         tomKCBAccount.deposit(12000);
 
         tomKCBAccount.describeAc();
+
+        Account defau = new Account();
+
+        Customer client = new Customer();
+
     }
 }
